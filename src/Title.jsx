@@ -6,7 +6,7 @@
   }
 // export fucntion Discription(){}      ---->Named Export..
 
-  function Discription(){
+ export  function Discription(){
     return (
     <div>
       <h1>I am Discription Component</h1>

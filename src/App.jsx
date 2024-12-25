@@ -1,6 +1,6 @@
 import './App.css'
 import Title from './Title'
-// import { Discription } from './Title'
+import { Discription } from './Title'
 function App() {
 
   return (
