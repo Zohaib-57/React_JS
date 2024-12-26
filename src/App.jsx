@@ -2,6 +2,7 @@ import './App.css'
 import Title from './Title'
 import { Discription } from './Title'
 import CurlyBrace from './CurlyBrace'
+import ProductList from './ProductList'
 function App() {
 
   return (
@@ -11,6 +12,8 @@ function App() {
     <Title />  {/*rendered the title component*/}
     <Discription />
     <CurlyBrace />
+    <ProductList />
+   
 
     {/*  this is parent closing tags called as react fragment*/ } 
     </>
