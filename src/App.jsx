@@ -4,6 +4,8 @@ import { Discription } from './Title'
 import CurlyBrace from './CurlyBrace'
 import ProductList from './ProductList'
 import AmazonPage from './pages/AmazonPage'
+import Button from './components/Button'
+import Form from './components/Form'
 function App() {
 
   return (
@@ -16,6 +18,10 @@ function App() {
     <ProductList />
    
     <AmazonPage />
+
+    <p>--------------------------------</p>
+    <Button />
+    <Form />
     {/*  this is parent closing tags called as react fragment*/ } 
     </>
   )
