@@ -10,6 +10,7 @@ import './Product.css'
 //   )
 // }
 const Product = ({ title, price, imgUrl ,feature}) => {
+  let styles = {backgroundColor: 'red'}; // Dynamic Styling
   let isDsicount =price > 30000 ? "5% Discount" : "No Discount"; // Conditional Rendering using the ternary operator
     return (
       <div className='product'>
@@ -17,9 +18,9 @@ const Product = ({ title, price, imgUrl ,feature}) => {
           <h5>{price}</h5> {/* Working with props*/}
           <img src={imgUrl} alt={title} width={180} height={220}/>
           <p>{feature}</p>
-          <p>{isDsicount}</p> 
+          <p style={styles}>{isDsicount}</p> 
           {/* {price > 30000 ?<p>Discount 5%</p> : null}     another way of renderring the conditionals    */}
-          {price > 30000 && <p>Discount 5%</p>} {/* another way of renderring the conditionals  using the logical conditions */}
+          {/* {price > 30000 && <p>Discount 5%</p>} another way of renderring the conditionals  using the logical conditions */}
       </div>
         );
   }
