@@ -10,17 +10,17 @@ function App() {
 
   return (
     <> {/*  this is parent opening tags called as react fragment*/ }
-    <h1>Hello World</h1>
-    <button>Hello,There:</button>
-    <Title />  {/* rendered the title component */}
-    <Discription />
-    <CurlyBrace />
-    <ProductList />
+    {/* <h1>Hello World</h1> */}
+    {/* <button>Hello,There:</button> */}
+    {/* <Title />  rendered the title component */}
+    {/* <Discription /> */}
+    {/* <CurlyBrace /> */}
+    {/* <ProductList /> */}
    
-    <AmazonPage />
+    {/* <AmazonPage /> */}
 
-    <p>--------------------------------</p>
-    <Button />
+    {/* <p>--------------------------------</p> */}
+    {/* <Button /> */}
     <Form />
     {/*  this is parent closing tags called as react fragment*/ } 
     </>
